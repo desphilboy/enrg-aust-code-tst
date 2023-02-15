@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+By Iman Dezfuly
+
 after cloning the repo, cd to the folder containing the repo and  
  this is how to use this test:
 
