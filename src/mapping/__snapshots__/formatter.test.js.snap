@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formatter flatten data formats data according to spec 1`] = `
+Array [
+  Object {
+    "bandName": "Squint-281",
+    "festival": "Small Night In",
+    "recordLabel": "Outerscope",
+  },
+  Object {
+    "bandName": "The Black Dashes",
+    "festival": "Small Night In",
+    "recordLabel": "Fourth Woman Records",
+  },
+  Object {
+    "bandName": "Green Mild Cold Capsicum",
+    "festival": "Small Night In",
+    "recordLabel": "Marner Sis. Recording",
+  },
+  Object {
+    "bandName": "Yanke East",
+    "festival": "Small Night In",
+    "recordLabel": "MEDIOCRE Music",
+  },
+  Object {
+    "bandName": "Wild Antelope",
+    "festival": "Small Night In",
+    "recordLabel": "Marner Sis. Recording",
+  },
+  Object {
+    "bandName": "Squint-281",
+    "festival": "Trainerella",
+    "recordLabel": "Outerscope",
+  },
+  Object {
+    "bandName": "Wild Antelope",
+    "festival": "Trainerella",
+    "recordLabel": "Still Bottom Records",
+  },
+  Object {
+    "bandName": "Manish Ditch",
+    "festival": "Trainerella",
+    "recordLabel": "ACR",
+  },
+  Object {
+    "bandName": "Adrian Venti",
+    "festival": "Trainerella",
+    "recordLabel": "Monocracy Records",
+  },
+  Object {
+    "bandName": "YOUKRANE",
+    "festival": "Trainerella",
+    "recordLabel": "Anti Records",
+  },
+  Object {
+    "bandName": "Critter Girls",
+    "festival": undefined,
+    "recordLabel": "ACR",
+  },
+  Object {
+    "bandName": "Propeller",
+    "festival": undefined,
+    "recordLabel": "Pacific Records",
+  },
+  Object {
+    "bandName": "Winter Primates",
+    "festival": "LOL-palooza",
+    "recordLabel": "Unknown recorder",
+  },
+  Object {
+    "bandName": "Frank Jupiter",
+    "festival": "LOL-palooza",
+    "recordLabel": "Pacific Records",
+  },
+  Object {
+    "bandName": "Jill Black",
+    "festival": "LOL-palooza",
+    "recordLabel": "Fourth Woman Records",
+  },
+  Object {
+    "bandName": "Werewolf Weekday",
+    "festival": "LOL-palooza",
+    "recordLabel": "XS Recordings",
+  },
+  Object {
+    "bandName": "Summon",
+    "festival": "Twisted Tour",
+    "recordLabel": "Outerscope",
+  },
+  Object {
+    "bandName": "Auditones",
+    "festival": "Twisted Tour",
+    "recordLabel": "Marner Sis. Recording",
+  },
+  Object {
+    "bandName": "Squint-281",
+    "festival": "Twisted Tour",
+    "recordLabel": "Unknown recorder",
+  },
+]
+`;
+
+exports[`Formatter groupRecordLabel groups data based on record labelaccording to spec 1`] = `
+Array [
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Manish Ditch",
+        "festival": "Trainerella",
+        "recordLabel": "ACR",
+      },
+      Object {
+        "bandName": "Critter Girls",
+        "festival": undefined,
+        "recordLabel": "ACR",
+      },
+    ],
+    "recordLabel": "ACR",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "YOUKRANE",
+        "festival": "Trainerella",
+        "recordLabel": "Anti Records",
+      },
+    ],
+    "recordLabel": "Anti Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "The Black Dashes",
+        "festival": "Small Night In",
+        "recordLabel": "Fourth Woman Records",
+      },
+      Object {
+        "bandName": "Jill Black",
+        "festival": "LOL-palooza",
+        "recordLabel": "Fourth Woman Records",
+      },
+    ],
+    "recordLabel": "Fourth Woman Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Yanke East",
+        "festival": "Small Night In",
+        "recordLabel": "MEDIOCRE Music",
+      },
+    ],
+    "recordLabel": "MEDIOCRE Music",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Green Mild Cold Capsicum",
+        "festival": "Small Night In",
+        "recordLabel": "Marner Sis. Recording",
+      },
+      Object {
+        "bandName": "Wild Antelope",
+        "festival": "Small Night In",
+        "recordLabel": "Marner Sis. Recording",
+      },
+      Object {
+        "bandName": "Auditones",
+        "festival": "Twisted Tour",
+        "recordLabel": "Marner Sis. Recording",
+      },
+    ],
+    "recordLabel": "Marner Sis. Recording",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Adrian Venti",
+        "festival": "Trainerella",
+        "recordLabel": "Monocracy Records",
+      },
+    ],
+    "recordLabel": "Monocracy Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Squint-281",
+        "festival": "Small Night In",
+        "recordLabel": "Outerscope",
+      },
+      Object {
+        "bandName": "Squint-281",
+        "festival": "Trainerella",
+        "recordLabel": "Outerscope",
+      },
+      Object {
+        "bandName": "Summon",
+        "festival": "Twisted Tour",
+        "recordLabel": "Outerscope",
+      },
+    ],
+    "recordLabel": "Outerscope",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Propeller",
+        "festival": undefined,
+        "recordLabel": "Pacific Records",
+      },
+      Object {
+        "bandName": "Frank Jupiter",
+        "festival": "LOL-palooza",
+        "recordLabel": "Pacific Records",
+      },
+    ],
+    "recordLabel": "Pacific Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Wild Antelope",
+        "festival": "Trainerella",
+        "recordLabel": "Still Bottom Records",
+      },
+    ],
+    "recordLabel": "Still Bottom Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Werewolf Weekday",
+        "festival": "LOL-palooza",
+        "recordLabel": "XS Recordings",
+      },
+    ],
+    "recordLabel": "XS Recordings",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "bandName": "Winter Primates",
+        "festival": "LOL-palooza",
+        "recordLabel": "Unknown recorder",
+      },
+      Object {
+        "bandName": "Squint-281",
+        "festival": "Twisted Tour",
+        "recordLabel": "Unknown recorder",
+      },
+    ],
+    "recordLabel": "Unknown recorder",
+  },
+]
+`;
+
+exports[`Formatter makePrintable matches the requested output 1`] = `
+Array [
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Critter Girls",
+        "festivals": Array [
+          Object {
+            "bandName": "Critter Girls",
+            "festival": undefined,
+            "recordLabel": "ACR",
+          },
+        ],
+      },
+      Object {
+        "band": "Manish Ditch",
+        "festivals": Array [
+          Object {
+            "bandName": "Manish Ditch",
+            "festival": "Trainerella",
+            "recordLabel": "ACR",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "ACR",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "YOUKRANE",
+        "festivals": Array [
+          Object {
+            "bandName": "YOUKRANE",
+            "festival": "Trainerella",
+            "recordLabel": "Anti Records",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Anti Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Jill Black",
+        "festivals": Array [
+          Object {
+            "bandName": "Jill Black",
+            "festival": "LOL-palooza",
+            "recordLabel": "Fourth Woman Records",
+          },
+        ],
+      },
+      Object {
+        "band": "The Black Dashes",
+        "festivals": Array [
+          Object {
+            "bandName": "The Black Dashes",
+            "festival": "Small Night In",
+            "recordLabel": "Fourth Woman Records",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Fourth Woman Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Yanke East",
+        "festivals": Array [
+          Object {
+            "bandName": "Yanke East",
+            "festival": "Small Night In",
+            "recordLabel": "MEDIOCRE Music",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "MEDIOCRE Music",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Auditones",
+        "festivals": Array [
+          Object {
+            "bandName": "Auditones",
+            "festival": "Twisted Tour",
+            "recordLabel": "Marner Sis. Recording",
+          },
+        ],
+      },
+      Object {
+        "band": "Wild Antelope",
+        "festivals": Array [
+          Object {
+            "bandName": "Wild Antelope",
+            "festival": "Small Night In",
+            "recordLabel": "Marner Sis. Recording",
+          },
+        ],
+      },
+      Object {
+        "band": "Green Mild Cold Capsicum",
+        "festivals": Array [
+          Object {
+            "bandName": "Green Mild Cold Capsicum",
+            "festival": "Small Night In",
+            "recordLabel": "Marner Sis. Recording",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Marner Sis. Recording",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Adrian Venti",
+        "festivals": Array [
+          Object {
+            "bandName": "Adrian Venti",
+            "festival": "Trainerella",
+            "recordLabel": "Monocracy Records",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Monocracy Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Summon",
+        "festivals": Array [
+          Object {
+            "bandName": "Summon",
+            "festival": "Twisted Tour",
+            "recordLabel": "Outerscope",
+          },
+        ],
+      },
+      Object {
+        "band": "Squint-281",
+        "festivals": Array [
+          Object {
+            "bandName": "Squint-281",
+            "festival": "Small Night In",
+            "recordLabel": "Outerscope",
+          },
+          Object {
+            "bandName": "Squint-281",
+            "festival": "Trainerella",
+            "recordLabel": "Outerscope",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Outerscope",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Frank Jupiter",
+        "festivals": Array [
+          Object {
+            "bandName": "Frank Jupiter",
+            "festival": "LOL-palooza",
+            "recordLabel": "Pacific Records",
+          },
+        ],
+      },
+      Object {
+        "band": "Propeller",
+        "festivals": Array [
+          Object {
+            "bandName": "Propeller",
+            "festival": undefined,
+            "recordLabel": "Pacific Records",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Pacific Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Wild Antelope",
+        "festivals": Array [
+          Object {
+            "bandName": "Wild Antelope",
+            "festival": "Trainerella",
+            "recordLabel": "Still Bottom Records",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Still Bottom Records",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Werewolf Weekday",
+        "festivals": Array [
+          Object {
+            "bandName": "Werewolf Weekday",
+            "festival": "LOL-palooza",
+            "recordLabel": "XS Recordings",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "XS Recordings",
+  },
+  Object {
+    "bands": Array [
+      Object {
+        "band": "Squint-281",
+        "festivals": Array [
+          Object {
+            "bandName": "Squint-281",
+            "festival": "Twisted Tour",
+            "recordLabel": "Unknown recorder",
+          },
+        ],
+      },
+      Object {
+        "band": "Winter Primates",
+        "festivals": Array [
+          Object {
+            "bandName": "Winter Primates",
+            "festival": "LOL-palooza",
+            "recordLabel": "Unknown recorder",
+          },
+        ],
+      },
+    ],
+    "recordLabel": "Unknown recorder",
+  },
+]
+`;
