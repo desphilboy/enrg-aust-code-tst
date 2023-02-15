@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import { RecordsComponent } from './components/records.js';
 
 function App() {

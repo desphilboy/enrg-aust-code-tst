@@ -2,7 +2,7 @@ import { DEFAULT_RECORDER } from './constants.js';
 import _ from 'lodash';
 
 export const flattenData = (festivalData) =>
-	festivalData.reduce((acc, fd) => {
+	(festivalData || []).reduce((acc, fd) => {
 		fd.bands?.forEach((band) => {
 			acc = [
 				...acc,

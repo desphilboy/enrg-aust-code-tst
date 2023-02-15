@@ -10,10 +10,10 @@ export const getData = async () => {
 		res = await axios.get(EA_URL);
 		console.log({ res });
 		let data = res.data;
-		console.log(
-			'input data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ',
-			JSON.stringify({ data }),
-		);
+		// console.log(
+		// 	'input data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ',
+		// 	JSON.stringify({ data }),
+		// );
 
 		return data;
 	} catch (err) {

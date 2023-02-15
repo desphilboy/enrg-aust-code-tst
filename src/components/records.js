@@ -40,16 +40,16 @@ export const RecordsComponent = () => {
 	return (
 		<div id="record-components">
 			<InfoHeader />
-			{recordData.map((rd) => (
-				<RecordRow id="record-label-entry" key={rd}>
+			{recordData.map((rd, rdk) => (
+				<RecordRow id="record-label-entry" key={rdk}>
 					<div>{rd.recordLabel}</div>
 					<div>
-						{rd.bands.map((band) => (
-							<IndentedRow key={band}>
+						{rd.bands.map((band, bk) => (
+							<IndentedRow key={bk}>
 								<div>{band.band}</div>
 								<div>
-									{band.festivals.map((festival) => (
-										<IndentedRow>
+									{band.festivals.map((festival, k) => (
+										<IndentedRow key={k}>
 											{festival.festival && (
 												<div>{festival.festival}</div>
 											)}
